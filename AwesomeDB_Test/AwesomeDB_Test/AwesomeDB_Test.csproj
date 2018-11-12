@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{675561A1-E1C9-4442-97D4-42AF469B5663}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AwesomeDB_Test</RootNamespace>
+    <AssemblyName>AwesomeDB_Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADOSQLServer2017.cs" />
+    <Compile Include="AwesomeDB.cs" />
+    <Compile Include="AwesomeDB.min.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestisciDati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestisciDati.Designer.cs">
+      <DependentUpon>GestisciDati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipolaColonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipolaColonne.Designer.cs">
+      <DependentUpon>ManipolaColonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipolaTabelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipolaTabelle.Designer.cs">
+      <DependentUpon>ManipolaTabelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OttieniInformazioni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OttieniInformazioni.Designer.cs">
+      <DependentUpon>OttieniInformazioni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestVari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestVari.Designer.cs">
+      <DependentUpon>TestVari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisteProcedure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisteProcedure.Designer.cs">
+      <DependentUpon>VisteProcedure.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestisciDati.resx">
+      <DependentUpon>GestisciDati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipolaColonne.resx">
+      <DependentUpon>ManipolaColonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipolaTabelle.resx">
+      <DependentUpon>ManipolaTabelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OttieniInformazioni.resx">
+      <DependentUpon>OttieniInformazioni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TestVari.resx">
+      <DependentUpon>TestVari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisteProcedure.resx">
+      <DependentUpon>VisteProcedure.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\bin\Debug\AwesomeDB_Test.exe.config
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\bin\Debug\AwesomeDB_Test.exe
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\bin\Debug\AwesomeDB_Test.pdb
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.Form1.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.GestisciDati.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.ManipolaColonne.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.ManipolaTabelle.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.OttieniInformazioni.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.Properties.Resources.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.VisteProcedure.resources
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.csproj.GenerateResource.cache
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.csproj.CoreCompileInputs.cache
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.exe
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.pdb
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.csprojAssemblyReference.cache
+C:\Users\Riccardo\Desktop\AwesomeDB_Test\AwesomeDB_Test\obj\Debug\AwesomeDB_Test.TestVari.resources
